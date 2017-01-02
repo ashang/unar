@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'XADMaster' target in the 'XADMaster' project.
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
+
+#if !NSINTEGER_DEFINED && !defined(__COCOTRON__)
+typedef int NSInteger;
+typedef unsigned int NSUInteger;
+#endif
