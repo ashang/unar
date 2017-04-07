@@ -1,0 +1,6 @@
+*.a
+Build/
+UniversalDetector/DetectorTest
+XADTest?
+XADMaster/lsar
+XADMaster/unar
