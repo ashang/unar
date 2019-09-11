@@ -51,6 +51,35 @@ cd XADMaster
 make -f Makefile.linux
 ```
 
+## Build on macOS
+
+### Build on macOS from src
+### Build on macOS via brew
+```
+$ brew install unar
+...
+==> Using the sandbox
+==> Downloading https://wakaba.c3.cx/releases/TheUnarchiver/unar1.10.1_src.zip
+######################################################################## 100.0%
+==> xcodebuild -project ./XADMaster/XADMaster.xcodeproj -alltargets -configuration Release clean
+Last 15 lines from /path/to/Library/Logs/Homebrew/unar/01.xcodebuild:
+2017-05-02 23:19:18 +0800
+
+xcodebuild
+-project
+./XADMaster/XADMaster.xcodeproj
+-alltargets
+-configuration
+Release
+clean
+
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+
+READ THIS: http://docs.brew.sh/Troubleshooting.html
+
+```
+
+
 
 ## Supports formats
 
